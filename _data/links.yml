@@ -51,3 +51,19 @@
     
 - url: http://photos.perry-online.me.uk/
   title: Photos
+  sub:
+  - url: george/
+    title: George
+  - url: events/
+    title: Events
+  - url: travel/
+    title: Travel
+  - url: other/
+    title: Other
+    sub:
+    - url: days-out/
+      title: Days Out
+  - url: wedding/
+    title: Our Wedding
+  - url: archives/
+    title: Photo Archives
