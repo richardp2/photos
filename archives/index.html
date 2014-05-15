@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html xmlns:fb='http://ogp.me/ns/fb#' xmlns:og='http://ogp.me/ns#' lang='en-GB'>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
+    <title>Archives | Rosie & Jim's Photo Gallery</title>
+    <meta name='description' content="{% for post in site.posts %}{% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}{% unless year == this_year %}{% assign year = this_year %}
+        &lt;h3 class='year'&gt;{{ year }}&lt;/h3&gt;{% endunless %}
+        {% include partials/albums.html %}{% endfor %}
+
+">
+    <meta name='author' content="Rosie & Jim">
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    
+    <link rel='stylesheet' href='//fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,400,600'>
+    <link rel='stylesheet' href='//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css'>
+    <link rel='stylesheet' href='/assets/css/main.min.css'>
+    <link rel='alternate' href='/feed.xml' type='application/rss+xml' title='Rosie & Jim's Photo Gallery'>
+    <link rel='author' href="https://plus.google.com/">
+    <link rel='canonical' href="http://photos.perry-online.me.uk/archives/">
+    
+    <script src='/assets/scripts/vendor/modernizr-2.6.2-respond-1.1.0.min.js'></script>
+        
+    <meta property='og:type' content='article'>
+    <meta property='og:title' content="Archives | Rosie & Jim's Photo Gallery">
+    <meta property='og:description' content="{% for post in site.posts %}{% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}{% unless year == this_year %}{% assign year = this_year %}
+        &lt;h3 class='year'&gt;{{ year }}&lt;/h3&gt;{% endunless %}
+        {% include partials/albums.html %}{% endfor %}
+
+">
+    <meta property='og:url' content="http://photos.perry-online.me.uk/archives/">
+    <meta property='og:site_name' content="Rosie & Jim's Photo Gallery">
+    
+    <meta name='twitter:title' content="Archives | Rosie & Jim's Photo Gallery">
+    <meta name='twitter:description' content="{% for post in site.posts %}{% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}{% unless year == this_year %}{% assign year = this_year %}
+        &lt;h3 class='year'&gt;{{ year }}&lt;/h3&gt;{% endunless %}
+        {% include partials/albums.html %}{% endfor %}
+
+">
+    <meta name='twitter:url' content="http://photos.perry-online.me.uk/archives/">
+    <meta name='twitter:creator' content="">
+  </head>
+
+  <body>
+    <div id='container'>
+      <header id='page-header' role='banner' itemscope itemtype='http://schema.org/WPHeader'>
+        <hgroup>
+          <h1 class='site-title'>Rosie & Jim's Photo Gallery</h1>
+          <h2 class='site-description'>A collection of our photos</h2>
+        </hgroup>
+                <nav id="primary-navigation" role="navigation" >
+          <ul class="main-menu" >
+            <li>
+              <a href="http://www.perry-online.me.uk/" title="Home" >Home</a></li>
+          
+            <li>
+              <a href="http://travel.perry-online.me.uk/" title="Travel" >Travel</a>
+              <ul>
+                <li>
+                  <a href="http://travel.perry-online.me.uk/trips/cornwall12/" title="Cornwall 2012" >Cornwall 2012</a></li>
+              
+                <li>
+                  <a href="http://travel.perry-online.me.uk/trips/vietnam11/" title="Vietnam 2011" >Vietnam 2011</a></li>
+              
+                <li>
+                  <a href="http://travel.perry-online.me.uk/trips/iceland10-11/" title="Iceland 2010-11" >Iceland 2010-11</a></li>
+              
+                <li>
+                  <a href="http://travel.perry-online.me.uk/trips/cornwall12/" title="Cornwall 2012" >Cornwall 2012</a></li>
+              
+                <li>
+                  <a href="http://travel.perry-online.me.uk/trips/honeymoon/" title="Morocco 2010" >Morocco 2010</a></li>
+              
+                <li>
+                  <a href="http://travel.perry-online.me.uk/trips/china09/" title="China 2009" >China 2009</a></li>
+              
+                <li>
+                  <a href="http://travel.perry-online.me.uk/trips/threenations09/" title="Three Nations 2009" >Three Nations 2009</a></li>
+              
+                <li>
+                  <a href="http://travel.perry-online.me.uk/trips/switzerland08/" title="Switzerland 2008" >Switzerland 2008</a></li>
+              
+                <li>
+                  <a href="http://travel.perry-online.me.uk/trips/serbia06/" title="Serbia 2006" >Serbia 2006</a></li>
+              
+                <li>
+                  <a href="http://travel.perry-online.me.uk/archives/" title="Travel Archives" >Travel Archives</a></li>
+              </ul>
+            </li>
+          
+            <li>
+              <a href="http://richard.perry-online.me.uk/" title="Richard" >Richard</a>
+              <ul>
+                <li>
+                  <a href="http://richard.perry-online.me.uk/about/" title="About Me" >About Me</a></li>
+              
+                <li>
+                  <a href="http://richard.perry-online.me.uk/general/" title="General" >General</a></li>
+              
+                <li>
+                  <a href="http://richard.perry-online.me.uk/george/" title="George" >George</a></li>
+              
+                <li>
+                  <a href="http://richard.perry-online.me.uk/languages/" title="Languages" >Languages</a></li>
+              
+                <li>
+                  <a href="http://richard.perry-online.me.uk/outdoors/" title="Active/Outdoors" >Active/Outdoors</a></li>
+              
+                <li>
+                  <a href="http://richard.perry-online.me.uk/photography/" title="Photography" >Photography</a></li>
+              
+                <li>
+                  <a href="http://richard.perry-online.me.uk/reviews/" title="Reviews" >Reviews</a></li>
+              
+                <li>
+                  <a href="http://richard.perry-online.me.uk/technology/" title="Technology" >Technology</a></li>
+              
+                <li>
+                  <a href="http://richard.perry-online.me.uk/series/" title="Post Series" >Post Series</a></li>
+              
+                <li>
+                  <a href="http://richard.perry-online.me.uk/archives/" title="Blog Archives" >Blog Archives</a></li>
+              </ul>
+            </li>
+          
+            <li>
+              <a href="http://photos.perry-online.me.uk/" title="Photos" >Photos</a></li>
+          </ul>
+          <hr />
+        </nav><!-- #primary-navigation -->
+      </header><!-- #page-header -->
+      
+      <div>
+        <section id='content' role='main' itemscope itemtype='http://schema.org/WebPage'>
+            
+          <article itemscope itemtype="http://schema.org/Article" class="page">
+            <header>
+              <h2 itemProp="headline">Archives</h2>
+            </header>
+            
+            <section class="post-content" itemProp="articleBody">
+                  
+            <h3 class='year'>2013</h3>
+            
+            <article itemscope itemtype='http://schema.org/ImageGallery' class='album'>
+               <a href='/other/days-out/2013/07/st-fagans/' title='St. Fagans' class='img'><img src='http://farm8.static.flickr.com/7380/13998073200_c8fc23c988_q.jpg' alt="Day Out at St Fagans" /></a>
+              <h4><a href='/other/days-out/2013/07/st-fagans/'>St. Fagans</a></h4>
+              <footer class='meta'>
+                <time itemprop='datePublished' content='2013-07-27' datetime='2013-07-27 18:00:00 +0000'> 27 Jul 2013</time>
+                
+              </footer>
+            </article>
+            
+            <article itemscope itemtype='http://schema.org/ImageGallery' class='album'>
+               <a href='/other/days-out/2013/06/dartmoor-zoo/' title='Dartmoor Zoo' class='img'><img src='http://farm8.static.flickr.com/7360/14161652996_1a0f122797_q.jpg' alt="Rosie & George having fun at Dartmoor Zoo" /></a>
+              <h4><a href='/other/days-out/2013/06/dartmoor-zoo/'>Dartmoor Zoo</a></h4>
+              <footer class='meta'>
+                <time itemprop='datePublished' content='2013-06-22' datetime='2013-06-22 18:00:00 +0000'> 22 Jun 2013</time>
+                
+              </footer>
+            </article>
+            
+            <article itemscope itemtype='http://schema.org/ImageGallery' class='album'>
+               <a href='/travel/paris-2013/2013/04/disney/' title='Back at Disney' class='img'><img src='http://farm8.static.flickr.com/7422/13998588127_36d458766b_q.jpg' alt="Disneyland Paris" /></a>
+              <h4><a href='/travel/paris-2013/2013/04/disney/'>Back at Disney</a></h4>
+              <footer class='meta'>
+                <time itemprop='datePublished' content='2013-04-07' datetime='2013-04-07 18:00:00 +0000'> 07 Apr 2013</time>
+                
+              </footer>
+            </article>
+            <h3 class='year'>2012</h3>
+            
+            <article itemscope itemtype='http://schema.org/ImageGallery' class='album'>
+               <a href='/other/days-out/2012/10/dinosaurs/' title='Dinosaurs @ Bristol Zoo' class='img'><img src='http://farm8.static.flickr.com/7367/13997856629_2c5d557ebd_q.jpg' alt="Dinosaurs @ Bristol Zoo" /></a>
+              <h4><a href='/other/days-out/2012/10/dinosaurs/'>Dinosaurs @ Bristol Zoo</a></h4>
+              <footer class='meta'>
+                <time itemprop='datePublished' content='2012-10-20' datetime='2012-10-20 18:00:00 +0000'> 20 Oct 2012</time>
+                
+              </footer>
+            </article>
+            
+            <article itemscope itemtype='http://schema.org/ImageGallery' class='album'>
+               <a href='/george/2012/10/seven-months-old/' title='Seven Months Old' class='img'><img src='http://farm3.static.flickr.com/2895/14183952265_c47457f624_q.jpg' alt="George 7 Months Old" /></a>
+              <h4><a href='/george/2012/10/seven-months-old/'>Seven Months Old</a></h4>
+              <footer class='meta'>
+                <time itemprop='datePublished' content='2012-10-06' datetime='2012-10-06 18:00:00 +0000'> 06 Oct 2012</time>
+                
+              </footer>
+            </article>
+            
+            <article itemscope itemtype='http://schema.org/ImageGallery' class='album'>
+               <a href='/events/2012/09/richards-birthday-weekend/' title='Richard's Birthday Weekend' class='img'><img src='http://farm6.static.flickr.com/5277/14184192384_3ff056f1ca_q.jpg' alt="Birthday Weekend" /></a>
+              <h4><a href='/events/2012/09/richards-birthday-weekend/'>Richard's Birthday Weekend</a></h4>
+              <footer class='meta'>
+                <time itemprop='datePublished' content='2012-09-10' datetime='2012-09-10 22:00:00 +0000'> 10 Sep 2012</time>
+                
+              </footer>
+            </article>
+            
+            <article itemscope itemtype='http://schema.org/ImageGallery' class='album'>
+               <a href='/events/2012/09/harry-potter/' title='Warner Bros Studio Tour London - The Making of Harry Potter' class='img'><img src='http://farm8.static.flickr.com/7361/14161074626_224a21ce37_q.jpg' alt="Birthday Weekend" /></a>
+              <h4><a href='/events/2012/09/harry-potter/'>Warner Bros Studio Tour London - The Making of Harry Potter</a></h4>
+              <footer class='meta'>
+                <time itemprop='datePublished' content='2012-09-10' datetime='2012-09-10 21:00:00 +0000'> 10 Sep 2012</time>
+                
+              </footer>
+            </article>
+            
+            <article itemscope itemtype='http://schema.org/ImageGallery' class='album'>
+               <a href='/travel/cornwall-2012/2012/04/eden-project/' title='The Eden Project' class='img'><img src='http://farm8.static.flickr.com/7329/14186674561_b04f73ffe8_q.jpg' alt="Cornwall 2012-8693" /></a>
+              <h4><a href='/travel/cornwall-2012/2012/04/eden-project/'>The Eden Project</a></h4>
+              <footer class='meta'>
+                <time itemprop='datePublished' content='2012-04-10' datetime='2012-04-10 18:00:00 +0000'> 10 Apr 2012</time>
+                
+              </footer>
+            </article>
+            
+            <article itemscope itemtype='http://schema.org/ImageGallery' class='album'>
+               <a href='/george/2012/03/first-family-day-out/' title='Our First Family Day Out' class='img'><img src='http://farm8.static.flickr.com/7375/14180552401_95f5921dc5_q.jpg' alt="First Family Day Out-8667" /></a>
+              <h4><a href='/george/2012/03/first-family-day-out/'>Our First Family Day Out</a></h4>
+              <footer class='meta'>
+                <time itemprop='datePublished' content='2012-03-24' datetime='2012-03-24 11:04:43 +0000'> 24 Mar 2012</time>
+                
+              </footer>
+            </article>
+            
+            <article itemscope itemtype='http://schema.org/ImageGallery' class='album'>
+               <a href='/george/2012/02/christmas-ham/' title='Christmas Ham at the Perry's' class='img'><img src='http://farm6.static.flickr.com/5112/14203946193_af780c61ce_q.jpg' alt="Rachel Holding George :-)" /></a>
+              <h4><a href='/george/2012/02/christmas-ham/'>Christmas Ham at the Perry's</a></h4>
+              <footer class='meta'>
+                <time itemprop='datePublished' content='2012-02-25' datetime='2012-02-25 11:04:43 +0000'> 25 Feb 2012</time>
+                
+              </footer>
+            </article>
+            
+            <article itemscope itemtype='http://schema.org/ImageGallery' class='album'>
+               <a href='/george/2012/02/george-first-week/' title='George's First Week' class='img'><img src='http://farm8.static.flickr.com/7408/13996684067_0572fd505b_q.jpg' alt="IMG_8249" /></a>
+              <h4><a href='/george/2012/02/george-first-week/'>George's First Week</a></h4>
+              <footer class='meta'>
+                <time itemprop='datePublished' content='2012-02-13' datetime='2012-02-13 11:04:43 +0000'> 13 Feb 2012</time>
+                
+              </footer>
+            </article>
+            <h3 class='year'>2010</h3>
+            
+            <article itemscope itemtype='http://schema.org/ImageGallery' class='album'>
+               <a href='/wedding/2010/04/reason-media/' title='Our Wedding: Reason Media Photos' class='img'><img src='http://farm8.static.flickr.com/7329/13991136659_44b51f3b74_q.jpg' alt="rosie-richard329" /></a>
+              <h4><a href='/wedding/2010/04/reason-media/'>Our Wedding: Reason Media Photos</a></h4>
+              <footer class='meta'>
+                <time itemprop='datePublished' content='2010-04-10' datetime='2010-04-10 23:59:59 +0000'> 10 Apr 2010</time>
+                
+              </footer>
+            </article>
+            </section><!-- .post-content -->
+            
+            <footer>              
+              
+            </footer>
+          </article><!-- .page -->
+        
+
+        </section><!-- #content -->
+      </div>
+            
+      <footer id="page-footer" itemscope itemtype="http://schema.org/WPFooter">
+        <hr />
+        
+        <div class='social'>
+          
+          
+          <span class="fa-stack fa-2x">
+            <a href='//github.com/richardp2' title='GitHub'>
+              <i class="fa fa-circle fa-stack-2x"></i>
+              <i class="fa fa-github-alt fa-stack-1x fa-inverse"></i>
+            </a>
+          </span>
+          <span class="fa-stack fa-2x">
+            <a href='mai&#108;to&#58;rosiejim@perry-online.me.uk' title='Email'>
+              <i class="fa fa-circle fa-stack-2x"></i>
+              <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+            </a>
+          </span>
+          <span class="fa-stack fa-2x">
+            <a href='/feed.xml' title='RSS Feed'>
+              <i class="fa fa-circle fa-stack-2x feed"></i>
+              <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+            </a>
+          </span>
+        </div>
+        <small class='copyright'>Copyright &copy; 2009 - 2014 Rosie & Jim</small> &nbsp; &nbsp; | &nbsp; &nbsp; 
+        <small class='site-meta'>Powered by <a href='//jekyllrb.com/' title='Jekyll &bull; Simple, blog-aware, static sites'>Jekyll</a> &amp; Hosted at <a href='//github.com' title='GitHub'>GitHub</a></small>
+      </footer><!-- #page-footer -->
+    </div><!-- #container -->
+        
+            
+    
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/assets/scripts/vendor/jquery-1.10.1.min.js"><\/script>')</script>
+
+        <script src="/assets/scripts/main.min.js"></script>
+  </body>
+</html>
