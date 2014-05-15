@@ -1,0 +1,10 @@
+---
+blog: photos
+comments: false
+layout: page
+title: "Cornwall 2012"
+category: cornwall-2012
+description: "Our Photos from Cornwall 2012"
+permalink: /travel/cornwall-2012/
+---
+          {% for post in site.categories[page.category] %}{% include partials/albums.html %}{% endfor %}

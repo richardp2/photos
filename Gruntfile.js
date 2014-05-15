@@ -38,6 +38,10 @@ module.exports = function(grunt) {
           'assets/scripts/main.min.js' : [ '_includes/scripts/grunt.js' ]
         }
       }
+    },
+    watch: {
+      files: ['<%= concat.css.src %>, <%= concat.js.src %>'],
+      tasks: ['concat:css', 'cssmin:css', 'concat:js', 'uglify:js']
     }
   });
   grunt.loadNpmTasks('grunt-contrib-concat');

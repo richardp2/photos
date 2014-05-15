@@ -76,6 +76,13 @@ module Jekyll
             output += "<a title='View on Flickr' href='#{photo['urlPhoto']}' class='flickrlink'> </a>\n"
             output += "</li>\n"
           end
+        elsif @class == 'thumb'
+          photos.sample(1).each do |photo|
+            output += "<li>\n"
+            output += "<a title=\"#{photo['title']}\" href=\"#{photo['urlOpened']}\" class=\"image\"><img src='#{photo['urlThumb']}' alt=\"#{photo['title']}\" /></a>\n"
+            output += "<a title='View on Flickr' href='#{photo['urlPhoto']}' class='flickrlink'> </a>\n"
+            output += "</li>\n"
+          end
         else
           photos.each do |photo|
             output += "<li>\n"
@@ -222,13 +229,16 @@ module Jekyll
       page_url      = info['urls'][0]["_content"]
    
       img_tag       = "<img src='#{src}' alt=\"#{title}\" />"
-      link_tag      = "<ul class='flickr image #{classes}'>"
-      link_tag     += "<li>"
-      link_tag     += "<a title=\"#{title}\" href='#{full}' class=\"image\">#{img_tag}</a>"
-      link_tag     += "<a title='View on Flickr' href='#{page_url}' class='flickrlink'> </a>"
-      link_tag     += "</li>"
-      link_tag     += "</ul>"
-   
+      if @classes == 'thumb'
+        link_tag    = img_tag
+      else
+        link_tag      = "<ul class='flickr image #{classes}'>"
+        link_tag     += "<li>"
+        link_tag     += "<a title=\"#{title}\" href='#{full}' class=\"image\">#{img_tag}</a>"
+        link_tag     += "<a title='View on Flickr' href='#{page_url}' class='flickrlink'> </a>"
+        link_tag     += "</li>"
+        link_tag     += "</ul>"
+      end    
     end
   end
 end

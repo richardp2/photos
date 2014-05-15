@@ -1,0 +1,10 @@
+---
+blog: photos
+comments: false
+layout: page
+title: "Paris 2013"
+category: paris-2013
+description: "Our Photos from Paris 2013"
+permalink: /travel/paris-2013/
+---
+          {% for post in site.categories[page.category] %}{% include partials/albums.html %}{% endfor %}

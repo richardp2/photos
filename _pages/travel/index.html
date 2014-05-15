@@ -1,0 +1,10 @@
+---
+blog: photos
+comments: false
+layout: page
+title: "Travel"
+category: travel
+permalink: /travel/
+---
+          {% for trip in site.data.trips %}{% assign post = trip %}
+          {% include partials/albums.html %}{% endfor %}

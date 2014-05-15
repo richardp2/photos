@@ -1,0 +1,25 @@
+- george:
+  title: George
+  flickimg: 13185505585
+  url: /george/
+- events:
+  title: Events
+  flickimg: 14204336983
+  url: /events/
+- travel:
+  title: Travel
+  flickimg: 13946142460
+  url: /travel/
+- other:
+  title: Other
+  flickimg: 14109613226
+  url: /other/
+  cat:
+    - days-out:
+      title: "Days Out"
+      flickimg: 13997856629
+      url: /other/days-out/
+- wedding:
+  title: "Our Wedding"
+  flickimg: 13991136659
+  url: /wedding/

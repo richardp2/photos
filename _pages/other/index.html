@@ -1,0 +1,10 @@
+---
+blog: photos
+comments: false
+layout: page
+title: "Other"
+category: other
+permalink: /other/
+---
+          {% for categories in site.data.categories %}{% for category in categories.cat %}{% assign post = category %}
+          {% include partials/albums.html %}{% endfor %}{% endfor %}
