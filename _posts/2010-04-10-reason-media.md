@@ -8,4 +8,5 @@ categories:
 photoset: 72157644644216622
 flickimg: 13991136659
 permalink: /wedding/2010/04/reason-media/
+comments: true
 ---

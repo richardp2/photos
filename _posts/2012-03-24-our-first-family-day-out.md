@@ -9,4 +9,5 @@ categories:
 photoset: 72157641953608173
 flickimg: 14180552401
 permalink: /george/2012/03/first-family-day-out/
+comments: true
 ---

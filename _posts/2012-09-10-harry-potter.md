@@ -6,4 +6,5 @@ categories:
 - events
 photoset: 72157644255685630
 flickimg: 14161074626
+comments: true
 ---

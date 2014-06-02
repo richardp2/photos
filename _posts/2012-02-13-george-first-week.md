@@ -6,4 +6,5 @@ categories:
 - george
 photoset: 72157644613538876
 flickimg: 13996684067
+comments: true
 ---

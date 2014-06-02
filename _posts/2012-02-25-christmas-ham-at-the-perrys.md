@@ -8,4 +8,5 @@ categories:
 photoset: 72157644254647398
 flickimg: 14203946193
 permalink: /george/2012/02/christmas-ham/
+comments: true
 ---

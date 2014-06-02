@@ -7,4 +7,5 @@ categories:
 - days-out
 photoset: 72157644657843151
 flickimg: 14161652996
+comments: true
 ---

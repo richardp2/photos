@@ -7,4 +7,5 @@ categories:
 - cornwall-2012
 photoset: 72157644668021791
 flickimg: 14186674561
+comments: true
 ---
