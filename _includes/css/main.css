@@ -51,7 +51,7 @@ figcaption {font-size:0.8em;}
 
 /* Images */
 img {position: relative;margin: 0 auto;max-width: 650px;padding: 5px;}
-p img {display: inline;margin: 0;padding: 0;vertical-align: middle;text-align: center;border: none;}
+p img, img.emoji {display: inline;margin: 0;padding: 0;vertical-align: middle;text-align: center;border: none;}
 
 /* Code blocks */
 code, pre {font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
@@ -81,6 +81,7 @@ td {padding: 10px;background: #ccc;}
 #content{max-width:70em;margin:0 auto;}
 #content article {padding: 0.5em 1em;}
 #content article.album {padding:0;}
+#content nav.post-nav {height:22px;}
 
 #page-header {margin: 0;text-align: center;}
 #page-header::after {background:url(/assets/images/header.jpg) center top repeat-x;bottom:0;
