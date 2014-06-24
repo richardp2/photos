@@ -1,6 +1,6 @@
 {% capture feed_content %}
 {% case post.layout %}
-  {% when 'gallery' %} 
+  {% when 'album' %} 
     {{ post.content }}
     {% if post.photoset %}{% flickr_photoset post.photoset %}{% endif %}
   {% when 'image' %}
