@@ -4,7 +4,11 @@
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
     <title>Days Out | Rosie & Jim's Photo Gallery</title>
-    <meta name='description' content="A selection of photos from random days out :-)">
+    <meta name='description' content="      {% for post in site.categories[page.category] %}{% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}{% unless year == this_year %}{% assign year = this_year %}
+        &lt;h3 class='year'&gt;{{ year }}&lt;/h3&gt;{% endunless %}
+        {% include partials/albums.html %}{% endfor %}
+
+">
     <meta name='author' content="Rosie & Jim">
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     
@@ -19,14 +23,24 @@
         
     <meta property='og:type' content='article'>
     <meta property='og:title' content="Days Out | Rosie & Jim's Photo Gallery">
-    <meta property='og:description' content="A selection of photos from random days out :-)">
+    <meta property='og:description' content="      {% for post in site.categories[page.category] %}{% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}{% unless year == this_year %}{% assign year = this_year %}
+        &lt;h3 class='year'&gt;{{ year }}&lt;/h3&gt;{% endunless %}
+        {% include partials/albums.html %}{% endfor %}
+
+">
     <meta property='og:url' content="http://photos.perry-online.me.uk/other/days-out/">
     <meta property='og:site_name' content="Rosie & Jim's Photo Gallery">
     
+    <meta name='twitter:card' content="summary">
     <meta name='twitter:title' content="Days Out | Rosie & Jim's Photo Gallery">
-    <meta name='twitter:description' content="A selection of photos from random days out :-)">
+    <meta name='twitter:description' content="      {% for post in site.categories[page.category] %}{% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}{% unless year == this_year %}{% assign year = this_year %}
+        &lt;h3 class='year'&gt;{{ year }}&lt;/h3&gt;{% endunless %}
+        {% include partials/albums.html %}{% endfor %}
+
+">
     <meta name='twitter:url' content="http://photos.perry-online.me.uk/other/days-out/">
     <meta name='twitter:creator' content="">
+    <meta name='twitter:site:id' content="">
   </head>
 
   <body>
