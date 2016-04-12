@@ -6,6 +6,6 @@ categories:
 - travel
 - cornwall-2012
 photoset: 72157644668021791
-flickimg: 14186674561
+image: http://farm6.static.flickr.com/5595/14189977295_e099888440_q.jpg
 comments: true
 ---

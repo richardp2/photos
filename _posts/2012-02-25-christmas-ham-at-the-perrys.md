@@ -6,7 +6,7 @@ categories:
 - george
 - events
 photoset: 72157644254647398
-flickimg: 14203946193
+image: http://farm6.static.flickr.com/5112/14203946193_af780c61ce_q.jpg
 permalink: /george/2012/02/christmas-ham/
 comments: true
 ---

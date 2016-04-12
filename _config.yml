@@ -1,46 +1,53 @@
+# Site details
 name: Rosie & Jim's Photo Gallery
 shortname: Photos
 description: A collection of our photos
 owner: rosiejim
 authors:
-- richard
-- rosie
+  - richard
+  - rosie
 url: http://photos.perry-online.me.uk
 email: photos@perry-online.me.uk
 
-markdown: kramdown
-kramdown:
-  use_coderay: true
-pygments: true
-exclude: 
-- 'changes'
-- 'Gemfile'
-- 'Gemfile.lock'
-- 'Gruntfile.js'
-- 'node_modules'
-- 'package.json'
-- 'Rakefile'
-- 'README.md'
-gems: ["emoji_for_jekyll"]
-
-encoding: utf-8
-
-permalink: /:categories/:year/:month/:title/
-relative_permalinks: false
-
-paginate: 10
-paginate_path: "page/:num"
-  
+# Where things are
 images: /assets/images
 thumbs: /assets/images/thumbs
 
-category_dir: /
+# Handling Reading
+exclude: 
+  - 'changes'
+  - 'Gemfile'
+  - 'Gemfile.lock'
+  - 'Gruntfile.js'
+  - 'node_modules'
+  - 'package.json'
+  - 'Rakefile'
+  - 'README.md'
 
+# Plugins
+gems: 
+  - jemoji
+  - jekyll-paginate
+  - jekyll-gist
+  - jekyll-redirect-from
+  - jekyll-sitemap
 flickr:
   enabled:         yes
-  cache_dir:       ./_cache/flickr
+  cache_dir:       _cache/flickr
+  screen_name:     Richard Perry
   api_key:         4389a0eb79c41ca17e149830c22fc7c2
   shared_secret:   ef41108edae962b0
   access_token:    72157641557984045-92a5dbebf3e01418
   access_secret:   1625dbdd3cf26db6
+category_dir: /
 
+# Outputting
+permalink: /:categories/:year/:month/:title/
+paginate: 10
+paginate_path: "page/:num"
+timezone:            Europe/London
+
+# PreProcessors
+sass:
+  sass_dir: _sass
+  style: compressed

@@ -1,8 +1,7 @@
 ---
-layout: none
+layout: null
 ---
 <?xml version="1.0" encoding="utf-8"?>{% assign author = site.data.authors[site.owner] %}
-<?xml-stylesheet type="text/xsl" href="/assets/xsl/feed.xsl" media="screen"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 
   <channel>

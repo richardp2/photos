@@ -7,7 +7,7 @@ categories:
 - other
 - days-out
 photoset: 72157641953608173
-flickimg: 14180552401
+image: http://farm8.static.flickr.com/7375/14180552401_95f5921dc5_q.jpg
 permalink: /george/2012/03/first-family-day-out/
 comments: true
 ---

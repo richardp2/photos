@@ -1,25 +1,25 @@
 - george:
   title: George
-  flickimg: 13185505585
+  image: http://farm8.static.flickr.com/7138/13185505585_ac6317ed4e_q.jpg
   url: /george/
 - events:
   title: Events
-  flickimg: 14204336983
+  image: http://farm3.static.flickr.com/2905/14204336983_34c690e584_q.jpg
   url: /events/
 - travel:
   title: Travel
-  flickimg: 13946142460
+  image: http://farm8.static.flickr.com/7418/13946142460_ec6b41d509_q.jpg
   url: /travel/
 - other:
   title: Other
-  flickimg: 14109613226
+  image: http://farm3.static.flickr.com/2938/14109613226_cb9347d724_q.jpg
   url: /other/
   cat:
     - days-out:
       title: "Days Out"
-      flickimg: 13997856629
+      image: http://farm8.static.flickr.com/7367/13997856629_2c5d557ebd_q.jpg
       url: /other/days-out/
 - wedding:
   title: "Our Wedding"
-  flickimg: 13991136659
+  image: http://farm8.static.flickr.com/7329/13991136659_44b51f3b74_q.jpg
   url: /wedding/

@@ -5,6 +5,6 @@ title: Richard's Birthday Weekend
 categories: 
 - events
 photoset: 72157644669819454
-flickimg: 14184192384
+image: http://farm6.static.flickr.com/5277/14184192384_3ff056f1ca_q.jpg
 comments: true
 ---
