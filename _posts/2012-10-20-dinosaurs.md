@@ -6,6 +6,6 @@ categories:
 - other
 - days-out
 photoset: 72157644711672653
-image: http://farm8.static.flickr.com/7367/13997856629_2c5d557ebd_q.jpg
+image: //farm8.static.flickr.com/7367/13997856629_2c5d557ebd_q.jpg
 comments: true
 ---

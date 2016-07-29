@@ -1,5 +1,5 @@
 {% capture start_month %}{{ post.start | date: "%B" }}{% endcapture %}{% capture end_month %}{{ post.end | date: "%B" }}{% endcapture %}{% capture start %}{% if start_month == end_month %}{{ post.start | date: "%d" }}{% else %}{{ post.start | date: "%d %B" }}{% endif %}{% endcapture %}{% capture thumb %}{% if post.image %}<img src='{{ post.image }}' title='{{ post.title }}' alt='{{ post.title }}' />{% endif %}{% if post.flickimg %}{% flickr_image post.flickimg %}{% endif %}{% endcapture %}
-            <article itemscope itemtype='http://schema.org/ImageGallery' class='album'>
+            <article itemscope itemtype='//schema.org/ImageGallery' class='album'>
               <a href='{{post.url}}' title='{{post.title}}' class='img'>{{thumb}}</a>
               <h4><a href='{{post.url}}'>{{post.title}}</a></h4>
               <footer class='meta'>

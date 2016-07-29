@@ -6,7 +6,7 @@ categories:
 - wedding
 - events
 photoset: 72157644644216622
-image: http://farm8.static.flickr.com/7329/13991136659_44b51f3b74_q.jpg
+image: //farm8.static.flickr.com/7329/13991136659_44b51f3b74_q.jpg
 permalink: /wedding/2010/04/reason-media/
 comments: true
 ---

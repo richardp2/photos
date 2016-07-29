@@ -5,6 +5,6 @@ title: George's First Week
 categories: 
 - george
 photoset: 72157644613538876
-image: http://farm8.static.flickr.com/7408/13996684067_0572fd505b_q.jpg
+image: //farm8.static.flickr.com/7408/13996684067_0572fd505b_q.jpg
 comments: true
 ---

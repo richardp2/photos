@@ -1,4 +1,4 @@
-- url: http://www.perry-online.me.uk/
+- url: //www.perry-online.me.uk/
   title: Home
   sub:
   - url: about/
@@ -12,7 +12,7 @@
   - url: archives/
     title: Global Archives
 
-- url: http://travel.perry-online.me.uk/
+- url: //travel.perry-online.me.uk/
   title: Travel
   sub:
   - url: cornwall-2012/
@@ -30,7 +30,7 @@
   - url: archives/
     title: Travel Archives
     
-- url: http://richard.perry-online.me.uk/
+- url: //richard.perry-online.me.uk/
   title: Richard
   sub:
   - url: about/
@@ -54,7 +54,7 @@
   - url: archives/
     title: Blog Archives
     
-- url: http://photos.perry-online.me.uk/
+- url: //photos.perry-online.me.uk/
   title: Photos
   sub:
   - url: george/

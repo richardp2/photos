@@ -224,8 +224,8 @@ module Jekyll
       description   = info['description']
       size          = "_#{@size}" if @size
       classes       = "#{@classes}" if @classes
-      src           = "http://farm#{farm}.static.flickr.com/#{server}/#{id}_#{secret}#{size}.jpg"
-      full          = "http://farm#{farm}.static.flickr.com/#{server}/#{id}_#{secret}_b.jpg"
+      src           = "//farm#{farm}.static.flickr.com/#{server}/#{id}_#{secret}#{size}.jpg"
+      full          = "//farm#{farm}.static.flickr.com/#{server}/#{id}_#{secret}_b.jpg"
       page_url      = info['urls'][0]["_content"]
    
       img_tag       = "<img src='#{src}' alt=\"#{title}\" />"

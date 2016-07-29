@@ -1,5 +1,5 @@
 <!DOCTYPE html>{% capture title %}{% if page.title == "Home" %} {{ site.name }} | {{ site.description }}{% else %}{{ page.title }} | {{ site.name }}{% endif %}{% endcapture %}{% capture description %}{% if page.title == 'Home' %}{{ site.description }}{% else %}{{ page.content | markdownify | strip_html | truncatewords: 40 }}{% endif %}{% endcapture %}{% if page.author %}{% assign auth = site.data.authors[page.author] %}{% else %}{% assign auth = site.data.authors[site.owner] %}{% endif %}
-<html xmlns:fb='http://ogp.me/ns/fb#' xmlns:og='http://ogp.me/ns#' lang='en-GB'>
+<html xmlns:fb='//ogp.me/ns/fb#' xmlns:og='//ogp.me/ns#' lang='en-GB'>
   <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
@@ -33,7 +33,7 @@
 
   <body>
     <div id='container'>
-      <header id='page-header' role='banner' itemscope itemtype='http://schema.org/WPHeader'>
+      <header id='page-header' role='banner' itemscope itemtype='//schema.org/WPHeader'>
         <hgroup>
           <h1 class='site-title'>{{site.name}}</h1>
           {% if site.description %}<h2 class='site-description'>{{site.description}}</h2>{% endif %}
@@ -42,4 +42,4 @@
       </header><!-- #page-header -->
       
       <div>
-        <section id='content' role='main' itemscope itemtype='http://schema.org/WebPage'>
+        <section id='content' role='main' itemscope itemtype='//schema.org/WebPage'>

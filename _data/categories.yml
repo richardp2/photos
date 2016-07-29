@@ -1,25 +1,25 @@
 - george:
   title: George
-  image: http://farm8.static.flickr.com/7138/13185505585_ac6317ed4e_q.jpg
+  image: //farm8.static.flickr.com/7138/13185505585_ac6317ed4e_q.jpg
   url: /george/
 - events:
   title: Events
-  image: http://farm3.static.flickr.com/2905/14204336983_34c690e584_q.jpg
+  image: //farm3.static.flickr.com/2905/14204336983_34c690e584_q.jpg
   url: /events/
 - travel:
   title: Travel
-  image: http://farm8.static.flickr.com/7418/13946142460_ec6b41d509_q.jpg
+  image: //farm8.static.flickr.com/7418/13946142460_ec6b41d509_q.jpg
   url: /travel/
 - other:
   title: Other
-  image: http://farm3.static.flickr.com/2938/14109613226_cb9347d724_q.jpg
+  image: //farm3.static.flickr.com/2938/14109613226_cb9347d724_q.jpg
   url: /other/
   cat:
     - days-out:
       title: "Days Out"
-      image: http://farm8.static.flickr.com/7367/13997856629_2c5d557ebd_q.jpg
+      image: //farm8.static.flickr.com/7367/13997856629_2c5d557ebd_q.jpg
       url: /other/days-out/
 - wedding:
   title: "Our Wedding"
-  image: http://farm8.static.flickr.com/7329/13991136659_44b51f3b74_q.jpg
+  image: //farm8.static.flickr.com/7329/13991136659_44b51f3b74_q.jpg
   url: /wedding/

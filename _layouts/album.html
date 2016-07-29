@@ -1,5 +1,5 @@
 {% include head.html %}
-          <article itemscope itemtype="http://schema.org/ImageGallery" class="post single format-album">
+          <article itemscope itemtype="//schema.org/ImageGallery" class="post single format-album">
             <header>
               {% include partials/post-nav.html %}
               <h2 itemProp="headline">{{ page.title }}</h2>
@@ -11,7 +11,7 @@
             </section><!-- .post-content .gallery -->
             
             <footer>
-              {% if page.photoset %}<a href="http://www.flickr.com/photos/richard-perry/sets/{{ page.photoset }}/" target="_blank" title="View on Flickr" class="invisible" >View on Flickr</a>{% endif %}
+              {% if page.photoset %}<a href="//www.flickr.com/photos/richard-perry/sets/{{ page.photoset }}/" target="_blank" title="View on Flickr" class="invisible" >View on Flickr</a>{% endif %}
               {% include partials/post-nav.html %}
               {% if page.comments %}<div id="disqus_thread"></div>{% endif %}
             </footer>

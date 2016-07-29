@@ -5,6 +5,6 @@ title: Seven Months Old
 categories: 
 - george
 photoset: 72157644655854241
-image: http://farm3.static.flickr.com/2895/14183952265_c47457f624_q.jpg
+image: //farm3.static.flickr.com/2895/14183952265_c47457f624_q.jpg
 comments: true
 ---
