@@ -5,7 +5,8 @@
              *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
              *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables */
             var disqus_config = function () {
-                this.page.url = "//photos.perry-online.me.uk{{ page.url }}";
+                this.page.url = "https://photos.perry-online.me.uk{{ page.url }}";
+                this.page.title = "{{ page.title }}"
                 this.page.identifier = "{{ page.id }}";
             };
 
@@ -16,7 +17,7 @@
                 (d.head || d.body).appendChild(s);
             })();
         </script>
-        <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+        <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
         <a href="//disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
         {% endif %}
     
